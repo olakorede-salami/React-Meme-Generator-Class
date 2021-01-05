@@ -2,7 +2,7 @@
   "name": "meme-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://olakorede-salami.github.io/Meme-Generator",
+  "homepage": "https://olakorede-salami.github.io/React-Meme-Generator",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

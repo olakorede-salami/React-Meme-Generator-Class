@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends React.Component {
@@ -48,7 +47,7 @@ handleSubmit(event){
    return (
      <div>
       <div>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} className = "header">
           <input 
           type = "text"
           placeholder = "Top Text"
@@ -66,7 +65,7 @@ handleSubmit(event){
           <button>Generate</button>
         </form>
       </div>
-            <div className="container">
+            <div className="contain">
               <img src= {this.state.defImg} alt="tester" />
             <div className="text">
             <h2 className="top">{this.state.topText}</h2>
